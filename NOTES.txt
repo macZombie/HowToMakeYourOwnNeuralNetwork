@@ -1,0 +1,52 @@
+  NOTES.txt
+  
+  237  conda --version
+  238  conda update conda
+  239  conda --version
+  240  conda create --name diy
+  241  conda activate diy
+  242  conda info --envs
+  243  python -version
+  244  conda deactivate diy
+  245  conda deactivate
+  246  conda create --name make_your_own python=3.9
+
+
+(base) neilmacmillan@iMacM1 ~ % python -V      
+Python 3.9.7
+(base) neilmacmillan@iMacM1 ~ % conda info --envs
+# conda environments:
+#
+base                  *  /Users/neilmacmillan/opt/anaconda3
+diy                      /Users/neilmacmillan/opt/anaconda3/envs/diy
+make_your_own            /Users/neilmacmillan/opt/anaconda3/envs/make_your_own
+
+(base) neilmacmillan@iMacM1 ~ % conda activate make_your_own
+(make_your_own) neilmacmillan@iMacM1 ~ % conda info --envs           
+# conda environments:
+#
+base                     /Users/neilmacmillan/opt/anaconda3
+diy                      /Users/neilmacmillan/opt/anaconda3/envs/diy
+make_your_own         *  /Users/neilmacmillan/opt/anaconda3/envs/make_your_own
+
+history
+
+257  conda install ipython
+258  conda install jupyter
+
+Type 
+
+jupyter notebook
+
+server should start
+
+default browser should go to server
+
+use: New Python....
+
+
+
+import numpy   ...didn't work. Shut down server, conda install numpy.... restarted OK
+
+
+
